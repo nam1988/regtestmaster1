@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide"
+	xmlns:g2="null" xmlns:j2="null">
+
+	<g2:doctype name="html" />
+
+	<html ng-app="${jvar_app}" id="${jvar_app}" class="${jvar_text_direction}" data-doctype="true">
+
+		<head>
+			<title>${jvar_title}</title>
+			<meta name="viewport"
+				content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+
+			<j2:if test="$[jvar_isMSIE8 || jvar_isMSIE7]" />
+			<script
+				src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+
+			<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" />
+			<g:requires name="styles/nvd.css" />
+			
+			<script src="scripts/lib/jquery_includes.js" />
+			<script src="scripts/heisenberg/heisenberg_all.js" />
+	
+				<script data-description="NOW vars set by properties, custom events, g_* globals">
+					window.CustomEvent = {};
+					window.CustomEvent.fire = function() {};
+					window.NOW = {};
+					window.NOW.ng_cache_defeat =
+					${global.SecProperty.getProperty('glide.ng_cache_defeat', false)};
+					window.NOW.initiallyLoggedIn = $[gs.isLoggedIn()];
+					window.NOW.externalAuthentication =
+					${global.SecProperty.getProperty('glide.authenticate.external', false)};
+					window.NOW.ac_wait_time =
+					parseInt(${global.SecProperty.getProperty('glide.xmlhttp.ac_wait_time', null)});
+					var
+					g_tz_offset = $[new GlideDateTime().getTZOffset();];
+					var
+					g_first_day_of_week =
+					parseInt(${global.SecProperty.getProperty('glide.ui.date_format.first_day_of_week',
+					1)}, 10);
+					var g_date_picker_first_day_of_week =
+					parseInt(${global.SecProperty.getProperty('glide.ui.date_picker.first_day_of_week',
+					0)}, 10);
+					var g_ck = '$[gs.getSession().getSessionToken()]';
+					var g_searchWaitTime =
+					100;
+				</script>
+
+			<g:inline template="html_page_script_includer.xml"
+				includes_file="scripts/js_includes_angular.js" />
+
+			<g:requires name="scripts/js_includes_dcCommon.js" />
+
+			<script src="scripts/nvd/app_sec.js" />
+			<g:inline template="html_page_script_includer.xml"
+				includes_file="scripts/js_includes_ng_dc.js" />
+			<script src="scripts/nvd/controller.NVD.js" />
+			<script src="scripts/nvd/service.NVDProcessor.js" />
+
+			</head>
+			<body ng-controller="nvd_MainCtrl" ng-init="initialize()" id="main_pane">
+				<g:inline template="nvd_manual_list.xml" />
+			</body>
+		</html>
+
+</j:jelly>

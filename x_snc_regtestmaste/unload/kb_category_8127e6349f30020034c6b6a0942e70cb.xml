@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-05-14 22:46:06">
+<kb_category action="INSERT_OR_UPDATE">
+<active>true</active>
+<full_category>Common Weaknesses</full_category>
+<label>Common Weaknesses</label>
+<parent_id>e15c06f09f30020034c6b6a0942e7076</parent_id>
+<parent_table>kb_knowledge_base</parent_table>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-06-19 22:43:42</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>8127e6349f30020034c6b6a0942e70cb</sys_id>
+<sys_mod_count>5</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-06-19 22:44:14</sys_updated_on>
+<value>Common Weaknesses</value>
+</kb_category>
+</unload>

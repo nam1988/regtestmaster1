@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2015-05-14 22:46:06">
+<kb_knowledge_base action="INSERT_OR_UPDATE">
+<active>true</active>
+<approval_description/>
+<data_policy display_value=""/>
+<description>Vulnerabilities Knowledge base</description>
+<disable_category_editing>false</disable_category_editing>
+<disable_commenting>false</disable_commenting>
+<disable_suggesting>false</disable_suggesting>
+<icon/>
+<kb_managers/>
+<kb_version>3</kb_version>
+<mandatory_fields/>
+<order>400</order>
+<owner display_value="Security Incident Vulnerability">50e4bcc8ffa00200158bffffffffffe0</owner>
+<retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2015-06-19 18:26:52</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>e15c06f09f30020034c6b6a0942e7076</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2015-06-19 18:27:41</sys_updated_on>
+<table>kb_knowledge</table>
+<template/>
+<title>Vulnerabilities</title>
+<workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow>
+</kb_knowledge_base>
+</unload>
