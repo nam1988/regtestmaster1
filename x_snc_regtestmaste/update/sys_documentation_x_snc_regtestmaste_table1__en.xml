@@ -2,6 +2,7 @@
     <sys_documentation element="" label="table1" language="en" table="x_snc_regtestmaste_table1">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
+            <element
             <help/>
             <hint/>
             <label>table1</label>
