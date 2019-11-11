@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="table1" max_length="40" name="x_snc_regtestmaste_table1" type="collection" >
-        <element attributes="edge_encryption_enabled=true" label="Col1" max_length="40" name="col1" type="string" write_roles="x_snc_regtestmaste.user"/>
-        <element label="Col2" max_length="40" name="col2" type="string" delete_roles="x_snc_regtestmaste.user"/>
+    <element label="table1" max_length="40" name="x_snc_regtestmaste_table1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Col1" max_length="40" name="col1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Col2" max_length="40" name="col2" type="string"/>
     </element>
 </database>
