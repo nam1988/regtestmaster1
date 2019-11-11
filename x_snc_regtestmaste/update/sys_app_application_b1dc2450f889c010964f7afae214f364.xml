@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
+        <element
         <category display_value="">Custom Applications</category>
         <description/>
         <device_type>browser</device_type>
