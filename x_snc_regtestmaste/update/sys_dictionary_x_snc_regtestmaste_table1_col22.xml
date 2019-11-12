@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_regtestmaste_table1">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="col22" table="x_snc_regtestmaste_table1">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Col22</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,12 +22,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>col22</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_snc_regtestmaste_table1</name>
@@ -47,14 +47,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-07 01:55:30</sys_created_on>
-        <sys_id>81cd8e8a1c850010964fb3d54bc69b4e</sys_id>
+        <sys_created_on>2019-11-12 19:28:29</sys_created_on>
+        <sys_id>4dcd8e8a1c850010964fb3d54bc69b57</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_regtestmaste_table1</sys_name>
+        <sys_name>Col22</sys_name>
         <sys_package display_value="regtestmaster1" source="x_snc_regtestmaste">9a49c894f809c010964f7afae214f38f</sys_package>
         <sys_policy/>
         <sys_scope display_value="regtestmaster1">9a49c894f809c010964f7afae214f38f</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_regtestmaste_table1_NULL</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_regtestmaste_table1_col22</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-11-12 19:28:29</sys_updated_on>
         <table_reference>false</table_reference>
